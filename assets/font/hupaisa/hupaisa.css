@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Hupaisa';
+    src: url('AnyConv.com__Hupaisa-Black.woff') format('woff2'),
+         url('AnyConv.com__Hupaisa-Black.woff') format('woff');
+    /* Adicione outros formatos aqui, se necessário */
+    /* Inclua estilos de fonte adicionais, como peso ou estilo, se desejar */
+}
+ 
+@font-face {
+     font-family: 'Hupaisa';
+     font-weight: 100;
+     src: url('AnyConv.com__Hupaisa-Black.woff') format('woff2'),
+          url('AnyConv.com__Hupaisa-Black.woff') format('woff');
+     /* Adicione outros formatos aqui, se necessário */
+     /* Inclua estilos de fonte adicionais, como peso ou estilo, se desejar */
+}

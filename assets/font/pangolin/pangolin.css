@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Pangolin';
+    src: url('Pangolin-Regular.woff') format('woff2'),
+         url('Pangolin-Regular.woff') format('woff');
+    /* Adicione outros formatos aqui, se necessário */
+    /* Inclua estilos de fonte adicionais, como peso ou estilo, se desejar */
+  }
+ 
