@@ -67,4 +67,15 @@ function obter_id_pagina_por_template($nomeDoTemplate) {
     }
 }
 
-?>
+
+function is_page_using_template($template_name) {
+    $current_template = get_page_template_slug(); // Obtém o nome do arquivo do modelo da página atual
+
+    // Verifica se o nome do modelo da página atual corresponde ao modelo fornecido
+    if ($current_template === $template_name) {
+        return true; // Retorna verdadeiro se for o modelo fornecido
+    } else {
+        return false; // Retorna falso se não for o modelo fornecido
+    }
+}
+

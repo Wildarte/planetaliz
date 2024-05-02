@@ -10,14 +10,14 @@
 </head>
 <body>
     <?php
-        if(is_front_page()):
+        if(is_front_page() || is_page_using_template('page-agenda.php')):
     ?>
     <div class="top_header">
         <img src="<?= get_template_directory_uri() ?>/assets/img/top.jpg" alt="">
     </div>
     <?php endif; ?>
-    <header class="header" style="<?= is_front_page() == true ? "" : "position: absolute"; ?>">
-        
+    
+    <header class="header" style="<?= is_front_page() == true || is_page_using_template('page-agenda.php') == true ? "" : "position: absolute"; ?>">
 
         <div class="content_header">
             <div class="search">
